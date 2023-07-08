@@ -1,8 +1,14 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FollowCam : MonoBehaviour
 {
     public GameObject player;
+
+    void Start()
+    {
+        Global.previousSceneIndex = SceneManager.GetActiveScene().buildIndex;
+    }
 
     private void Update()
     {
