@@ -379,6 +379,7 @@ GameObject:
   - component: {fileID: 1418520622}
   - component: {fileID: 1418520621}
   - component: {fileID: 1418520620}
+  - component: {fileID: 1418520623}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -452,6 +453,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1418520623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418520619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2b7bf28cdb441b43aa590c069487c95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
 --- !u!1 &1457051636
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,6 +565,14 @@ PrefabInstance:
     - target: {fileID: 6617983061999475892, guid: ed4198e81a708414bb6a8a31b26349a7, type: 3}
       propertyPath: m_Name
       value: Boost (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6617983061999475894, guid: ed4198e81a708414bb6a8a31b26349a7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c453667118d6f44e89fb544eb364f50, type: 2}
+    - target: {fileID: 6617983061999475895, guid: ed4198e81a708414bb6a8a31b26349a7, type: 3}
+      propertyPath: forceAmount
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6617983061999475895, guid: ed4198e81a708414bb6a8a31b26349a7, type: 3}
       propertyPath: targetRigidbody
@@ -655,11 +677,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6617983061999475889, guid: ed4198e81a708414bb6a8a31b26349a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.39
+      value: -11.06
       objectReference: {fileID: 0}
     - target: {fileID: 6617983061999475889, guid: ed4198e81a708414bb6a8a31b26349a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.63
+      value: 0.39
       objectReference: {fileID: 0}
     - target: {fileID: 6617983061999475889, guid: ed4198e81a708414bb6a8a31b26349a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -697,9 +719,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boost
       objectReference: {fileID: 0}
+    - target: {fileID: 6617983061999475894, guid: ed4198e81a708414bb6a8a31b26349a7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c453667118d6f44e89fb544eb364f50, type: 2}
     - target: {fileID: 6617983061999475895, guid: ed4198e81a708414bb6a8a31b26349a7, type: 3}
       propertyPath: forceAmount
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6617983061999475895, guid: ed4198e81a708414bb6a8a31b26349a7, type: 3}
       propertyPath: targetRigidbody
