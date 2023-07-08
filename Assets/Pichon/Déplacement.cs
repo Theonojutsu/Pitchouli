@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Déplacement : MonoBehaviour
 {
-    public float speed = 5f; // Vitesse de déplacement de l'objet
+    public float speed = 1f; // Vitesse de déplacement de l'objet
 
     private void Update()
     {
