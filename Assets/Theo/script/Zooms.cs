@@ -20,7 +20,6 @@ public class Zooms : MonoBehaviour
         if (collision.gameObject.tag == "fond")
         {
             onZone = true;
-            Debug.Log("hey");
         }
     }
 
@@ -49,7 +48,7 @@ public class Zooms : MonoBehaviour
     {
         isZooming = true;
         isZoomingOut = true;
-        while (cameraToControl.orthographicSize < 15)
+        while (cameraToControl.orthographicSize < 25)
         {
             cameraToControl.orthographicSize += zoomSpeed * Time.deltaTime;
             yield return null;

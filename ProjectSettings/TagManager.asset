@@ -6,6 +6,7 @@ TagManager:
   tags:
   - TriggerObject
   - fond
+  - Spike
   layers:
   - Default
   - TransparentFX

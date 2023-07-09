@@ -3,9 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class Lose : MonoBehaviour
 {
-    void OnBecameInvisible()
+
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(0);
+        if (collision.gameObject.tag == "Spike")
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }
 
