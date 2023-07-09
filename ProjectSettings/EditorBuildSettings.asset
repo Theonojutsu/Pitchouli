@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Theo/RestartMenu.unity
+    path: Assets/Pichon/Pichon.unity
+    guid: 869fb476cd496b04d934a40adece0eb1
+  - enabled: 1
+    path: Assets/Pichon/RestartMenu.unity
     guid: d1eb403c70be3e84b845342bf676a0d1
+  - enabled: 0
+    path: Assets/Theo/Theo.unity
+    guid: e156251e686001c44b82788872080541
   - enabled: 1
     path: Assets/Theo/WinMenu.unity
     guid: e446d4fe53e1b504c8e2bff7661bcb89
-  - enabled: 1
-    path: Assets/Theo/Theo.unity
-    guid: e156251e686001c44b82788872080541
   m_configObjects: {}
