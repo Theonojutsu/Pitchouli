@@ -4559,7 +4559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraToControl: {fileID: 615448155}
-  zoomSpeed: 15
+  zoomSpeed: 25
 --- !u!1001 &1462845739
 PrefabInstance:
   m_ObjectHideFlags: 0

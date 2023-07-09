@@ -15,7 +15,6 @@ public class Lose : MonoBehaviour
     void Update()
     {
         limiteGauche = mainCamera.ScreenToWorldPoint(new Vector3(0, 0, 0)).x;
-        Debug.Log(limiteGauche);
 
         if (transform.position.x <= limiteGauche)
         {
