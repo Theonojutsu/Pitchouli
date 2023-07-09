@@ -12,6 +12,10 @@ public class Zooms : MonoBehaviour
     private bool isZoomingOut = false;
     private bool onZone = false;
 
+    private float camPos;
+    public GameObject deathZone;
+    public GameObject camera2;
+
 
     #endregion
 
@@ -36,7 +40,6 @@ public class Zooms : MonoBehaviour
         if (!isZooming && onZone == false && !isZoomingOut)
         {
             StartCoroutine(ZoomOut());
-
         }
         else if (!isZooming && onZone == true && isZoomingOut)
         {
