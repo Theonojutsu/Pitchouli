@@ -12,11 +12,6 @@ public class Zooms : MonoBehaviour
     private bool isZoomingOut = false;
     private bool onZone = false;
 
-    private float camPos;
-    public GameObject deathZone;
-    public GameObject camera2;
-
-
     #endregion
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -63,7 +58,7 @@ public class Zooms : MonoBehaviour
     {
         isZooming = true;
         isZoomingOut = false;
-        while (cameraToControl.orthographicSize > 6)
+        while (cameraToControl.orthographicSize > 9)
         {
             cameraToControl.orthographicSize -= zoomSpeed * Time.deltaTime;
             yield return null;
